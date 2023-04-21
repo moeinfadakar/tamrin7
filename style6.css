@@ -1,0 +1,48 @@
+#menu{
+list-style-type: none;
+padding-left: 0px;
+background-color: lightgray;
+height: 5%;
+width: 100%;
+}
+#menu li{
+float: left;
+
+}
+#menu li a{
+text-decoration: none;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 10px;
+margin: 4px;
+background: linear-gradient(to top, lightblue, rgb(255, 97, 76));
+border: 1px black solid;
+}
+#menu li a:hover{
+border-radius: 20px;
+background-color: aquamarine;
+
+
+}
+#menu .submenu li{
+float: none;
+
+}
+#menu .submenu li{
+list-style-type: none;
+margin: 20px;
+margin-top: 30px;
+
+}
+.submenu{
+list-style-type: none;
+padding-left: 0%;
+background-color: lightgray;
+display: none;
+
+}
+#menu li:hover .submenu{
+display: block;
+
+
+}
